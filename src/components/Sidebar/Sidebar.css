@@ -1,0 +1,324 @@
+*{
+    padding-top:0;
+    margin-top:0;
+}
+.right{
+float:right;
+border:none;
+margin-right:-4px;
+background:rgba(214, 210, 210, 0.979)
+}
+.smallHeaders{
+    background:#fff;
+    border:none;
+    font-size:12px;
+    height:20px;
+    /* border-right:1px solid rgba(214, 210, 210, 0.979); */
+}
+.border{
+    border:none;
+    background:#fff;
+    /* border-right:1px solid rgba(214, 210, 210, 0.979); */
+}
+.rightEnd{
+    float:right;
+}
+.heading{
+    font-size:17px;
+}
+.left{
+    float:left;
+}
+.Container{
+    width:234px;
+}
+.style{
+    margin-top:10px;
+}
+.shift{
+    margin-right:1px;
+}
+
+.Drop{
+    padding-top:10px;
+}
+.line{
+    border-right:1px solid rgba(214, 210, 210, 0.979);
+    
+}
+.list{
+    margin-top:10px;
+    background:#fff;
+    border:none;
+}
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+   /* Rounded sliders  */
+   .slider.round {
+    border-radius: 34px;
+  } 
+  
+   .slider.round:before {
+    border-radius: 50%;
+  }   
+
+
+
+  .slidecontainer {
+    width: 100%; /* Width of the outside container */
+} 
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    /* appearance: none; */
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    /* appearance: none; */
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+.spacing{
+    padding:15px;
+}
+.space{
+    margin-left:30px;
+}
+.center{
+    margin-left:140px;
+    margin-top:150px;
+}
+.Center{
+    margin-left:135px;
+
+}
+.font{
+    font-size:20px;
+    color:rgba(148, 143, 143, 0.979);
+}
+.top{
+    margin-top:30px;
+}
+.position{
+    margin-top:170px;
+}
+.CenterAlign{
+    margin-left:500px;
+}
+.align{
+    margin-left:40px;
+}
+.SizE{
+    font-size:20px;
+    margin-left:127px;
+}
+.fix{
+    margin-top:20px;
+}
+.margin{
+    margin-left:80px;
+}
+.web{
+    margin-left:353px;
+    /* margin-top:-22px; */
+    display: inline-block;
+}
+
+.hoverContent{
+    display: inline-block;
+    margin-left:10px;
+    display:none;
+    position:absolute;
+    top:8px;
+    right:-8px;
+}
+.edit{
+    border:1px solid #ccc;
+    border-radius:3px;
+    display: inline-block;
+    font-size:13px;
+    margin-left:7px;
+    cursor:pointer;
+    width:30px;
+    padding:3px;
+    text-align:center;
+}
+.pointer{
+    cursor:pointer;
+}
+.check{
+    margin-top:-15px;
+    margin-left:7px;
+    display:inline-block;
+}
+.set{
+    margin-top:-13px;
+    padding:5px;
+}
+.static :hover .hoverContent{
+    display:block;
+    margin-left:720px;
+    margin-top:0px;
+    padding:0px;
+}
+.check :hover .check{
+    display: block;
+    margin-left:720px;
+    margin-top:0px;
+    padding:0px;
+}
+
+.static :hover .EditHover{
+    display:block;
+    margin-left:720px;
+    margin-top:0px;
+    padding:0px;
+}
+
+.TopAppbar{
+    height:50px;
+    width:510px;
+    border:none;
+    background:#fff;
+}
+.MargiN{
+    margin-left:10px;
+}
+.SpacE{
+    margin-left:109px;
+}
+.size{
+    height:590px;
+    /* height:auto; */
+    width:391px;
+    border:1px solid #ccc;
+    margin-left:60px;
+}
+.inputfield{
+    border:none;
+    background:#fff;
+    color:#000;
+    margin-left:15px;
+}
+.div{
+    border-bottom:1px solid #ccc;
+}
+.title{
+    margin-top:20px;
+    margin-left:26px;
+    font-size:16px;
+}
+.head{
+    margin-left:26px;
+    margin-top:5px;
+    color:#000;
+}
+.lg{
+    margin-left:141px;
+}
+.static{
+    position:relative;
+}
+.TopApp{
+    height:50px;
+    width:386px;
+    border:none;
+    background:#fff;
+}
+.borderLeft{
+    border-left:1px solid #ccc;
+}
+.back{
+    margin-left:-14px;
+    margin-top:50px;
+}
+.fixed{
+    position: fixed;
+}
+.checkNew{
+    margin-top: -66px;
+    margin-left: 318px;
+    display: inline-block;
+    display:none;
+    position:absolute;
+}
+
+.static :hover .checkNew {
+    display: block;
+    margin-left:318px;
+    display:inline-block;
+    padding:0px;
+    cursor:pointer;
+}
+.ellipsis{
+    text-overflow: ellipsis;
+}
